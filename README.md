@@ -1,8 +1,7 @@
 # ELEC3612_Diabetes_ML
 This repository contains the code and notebooks for Assignment 1 in ELEC3612. A range of supervised, unsupervised and machine-learning models were applied to the CDC BRFSS 2015 diabetes dataset, to predict diabetes risk.
 ## Notebook Structure
-The code was intially developed across Google Colab for preprocessing which is why file paths refer to /content/drive/... and the rest of the work (model implementations) was developed on Kaggle Notebook (file paths refer to /kaggle/input/...). All
-
+The code was intially developed across Google Colab (preprocessing) (file paths refer to /content/drive/...)and the rest of the work (model implementations) was developed on Kaggle Notebook (file paths refer to /kaggle/input/...). For ease of marking, the notebooks have been reorganised into the following structure:
 - **01_preprocessing.ipynb**
   - Data loading
   - Data Quality Checks
@@ -22,3 +21,7 @@ The code was intially developed across Google Colab for preprocessing which is w
 - **04_unsupervised.ipynb**
 - Contains the unsupervised model:
   - K-Means clustering
+ ## Execution Notes
+ - The notebooks were run in their respective environments (Colab/Kaggle)
+ - All outputs from the run are included (e.g. metrics, tables, confusion matrix, figures)
+ - The marker does not require to re-run these notebooks 
