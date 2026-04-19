@@ -9,7 +9,7 @@ The code was intially developed across Google Colab (preprocessing) (file paths 
   - Summary Statistics 
 - **02_supervised_part1.ipynb**
 - Contains the first set of supervised models:
-  - Support Vecotor Machine (SVM)
+  - Support Vector Machine (SVM)
   - Logistic Regression
 
 - **03_supervised_part2.ipynb**
@@ -24,4 +24,13 @@ The code was intially developed across Google Colab (preprocessing) (file paths 
  ## Execution Notes
  - The notebooks were run in their respective environments (Colab/Kaggle)
  - All outputs from the run are included (e.g. metrics, tables, confusion matrix, figures)
- - The marker does not require to re-run these notebooks 
+ - The marker does not require to re-run these notebooks
+## Repository Layout 
+ELEC3612_Diabetes_ML/
+│
+├── 01_preprocessing.ipynb
+├── 02_supervised_part1.ipynb
+├── 03_supervised_part2.ipynb
+├── 04_unsupervised.ipynb
+│
+└── README.md
